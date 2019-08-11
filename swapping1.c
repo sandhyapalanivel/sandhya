@@ -5,7 +5,6 @@ int main(void) {
 	z=x;
 	x=y;
 	y=z;
-	printf(%dx\n:y);
-printf(%dy\n:x);
+	printf(%d%d\n,x,y);
 	return 0;
 }
